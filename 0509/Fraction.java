@@ -1,4 +1,8 @@
 public class Fraction {
     int numerator;
-    int denumerator;
+    int denominator;
+    public Fraction(int a, int b) {
+        numerator = a;
+        denominator = b;
+    }
 }
