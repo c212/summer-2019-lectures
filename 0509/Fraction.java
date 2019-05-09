@@ -1,8 +1,12 @@
 public class Fraction {
+    int numerator;
+    int denominator;  
+    public String toString() {
+        return numerator + "/" + denominator;    
+    }
     public Fraction add(Fraction b ) {
         return null; 
-    } 
-    int denominator;    
+    }   
     public Fraction(int a, int b) {
         numerator = a;
         denominator = b;
@@ -15,5 +19,4 @@ public class Fraction {
         System.out.println( b + " + " + a + " = " + b.add(a) );
         
     }
-    int numerator;
 }
