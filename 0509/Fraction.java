@@ -4,8 +4,12 @@ public class Fraction {
     public String toString() {
         return numerator + "/" + denominator;    
     }
-    public Fraction add(Fraction b ) {
-        return null; 
+    public Fraction add(Fraction other) {
+        Fraction result = null; 
+        int n = numerator * other.denominator + denominator * other.numerator;
+        int d = denominator * other.denominator;
+        result = new Fraction(n, d); 
+        return result;
     }   
     public Fraction(int a, int b) {
         numerator = a;
