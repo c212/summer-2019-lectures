@@ -17,7 +17,7 @@ public class Fraction {
     }
     public static void main(String[] args) {
         Fraction a = new Fraction(1, 2); 
-        Fraction  b = new Fraction(1, 3);
+        Fraction  b = new Fraction(1, 2);
         Fraction result = a.add(b);
         System.out.println( a + " + " + b + " = " + result );
         System.out.println( b + " + " + a + " = " + b.add(a) );
